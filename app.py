@@ -1,2 +1,2 @@
-print("Hello DevOps!")
+print("Hello DevOps Testing automation flow!")
 #Logging features coming soon
