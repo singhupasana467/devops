@@ -33,6 +33,9 @@ jobs:
      - name: Build docker image
        run: docker build -t techietech/my-app-image:latest .
 
+     - name: Run container to verify output
+       run: docker run --rm techietech/my-app-image:latest .
+
      - name: Push docker image to Docker Hub
        run: docker push techietech/my-app-image:latest
 
