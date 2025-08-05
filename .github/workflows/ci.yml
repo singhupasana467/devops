@@ -22,3 +22,6 @@ jobs:
 
      - name: Skip Run tests
        run: echo "no pytest, skip testing for now"
+
+     - name: Build docker image
+       run: docker build -t my-app-image .
