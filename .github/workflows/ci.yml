@@ -34,8 +34,8 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
      - name: Build docker image
-       run: docker build -t TechieTech/my-app-image:latest .
+       run: docker build -t techietech/my-app-image:latest .
 
      - name: Push docker image to Docker Hub
-       run: docker push TechieTech/my-app-image:latest
+       run: docker push techietech/my-app-image:latest
 
